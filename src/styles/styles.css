@@ -40,9 +40,9 @@
 }
 
 .card__avatar {
-  height: 6rem;
+  height: 9 rem;
   width: 6rem;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: hsla(0, 0%, 0%, 0.2);
   margin-bottom: 1rem;
 }
@@ -55,8 +55,8 @@
 }
 
 .card__description {
-  height: 2rem;
-  width: 8rem;
+  height: 20rem;
+  width: 20rem;
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
@@ -134,14 +134,24 @@ h1 {
 }
 
 .about {
-  max-width: 40rem;
+  max-width: 50%;
 }
 
 .all {
   margin: auto;
-  max-width: 60rem;
+  max-width: 60%;
 }
 
 .smalltext {
   font-size: .75rem;
+}
+
+.hr_width {
+  max-width: 60%;
+}
+
+.vis {
+  border: 1px dotted #ccc;
+  width: 40rem;
+  height: 15rem;
 }
