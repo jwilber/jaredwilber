@@ -11,7 +11,7 @@ class Card extends React.Component {
   render() {
     return (
       <div
-      className={`card card--${this.randomNumber} ${
+      className={`card card--1 ${
           this.state.expanded ? "card--expanded" : ""
         }`}
       onClick={() => {

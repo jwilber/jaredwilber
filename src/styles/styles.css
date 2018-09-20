@@ -14,7 +14,7 @@
 }
 
 .grid-gap {
-  grid-gap: 2.5rem;
+  grid-gap: 20.5rem;
 }
  
 /* styling */
@@ -88,6 +88,10 @@ body {
   font-size: 1.1rem;
 }
 
+.buttonHolders {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -110,9 +114,16 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: hsla(0, 0%, 83%, 0.05);
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+button:hover {
+    background-color: coral; /* Green */
+    /*color: white;*/
+}
+
 button:focus {
   box-shadow: 0 0 0 3px #7396e4;
   outline: none;
@@ -139,7 +150,7 @@ h1 {
 
 .all {
   margin: auto;
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .smalltext {
@@ -154,4 +165,28 @@ h1 {
   border: 1px dotted #ccc;
   width: 40rem;
   height: 15rem;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
 }

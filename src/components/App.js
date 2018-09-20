@@ -30,16 +30,20 @@ class App extends React.Component {
           </center>
 
         <div className="p-4">
-          <div className="mb-4 pt-4">
+        <center>
+          <div className="buttonHolders">
+
             {Object.keys(this.state).map(k => (
-              <button
-                className="btn"
-                onClick={() => this.setState({ [k]: !this.state[k] })}
-              >
-                toggle <code>{k}</code>
-              </button>
+              
+                <button
+                  className="btn2"
+                  onClick={() => this.setState({ [k]: !this.state[k] })}
+                >
+                  toggle <code>{k}</code>
+                </button>
             ))}
           </div>
+          </center>
           <Grid settings={this.state} />
         </div>
         <center><span style={{'font-size':'1.1rem','color':'#ccc'}}>

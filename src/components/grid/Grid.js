@@ -6,7 +6,7 @@ import { wrapGrid } from 'animate-css-grid';
 class Grid extends React.Component {
   componentDidMount() {
     // will automatically clean itself up when dom node is removed
-    wrapGrid(this.grid, { easing : 'backOut', stagger: 10, duration: 400 });
+    wrapGrid(this.grid, { easing : 'backOut', stagger: 100, duration: 400 });
   }
 
   render() {
