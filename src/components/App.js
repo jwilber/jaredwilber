@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <div className='all'>  
       <center>
-        <h1> Jared Wilber</h1>
+        <h1 className="jared"> Jared Wilber</h1>
         <center>
         <div id="outer">
           <p className="inner data_science">Data Science</p>
