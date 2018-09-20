@@ -17,7 +17,14 @@ class App extends React.Component {
     return (
       <div className='all'>  
       <center>
-        <h1> Jared Wilber</h1> 
+        <h1> Jared Wilber</h1>
+        <center>
+        <div id="outer">
+          <p className="inner data_science">Data Science</p>
+          <p className="inner information">Information Design</p>
+          <p className="inner software">Software Engineering</p>
+        </div>
+        </center>
         <br/>
         <br /> 
         <Graph />
@@ -39,6 +46,9 @@ class App extends React.Component {
                   className="btn2"
                   onClick={() => this.setState({ [k]: !this.state[k] })}
                 >
+                  <svg className="svggg" style={{float:'left'}} width="20" height="20">
+                    <circle cx="10" cy="10" r="5"  />
+                  </svg>
                   toggle <code>{k}</code>
                 </button>
             ))}
@@ -46,7 +56,7 @@ class App extends React.Component {
           </center>
           <Grid settings={this.state} />
         </div>
-        <center><span style={{'font-size':'1.1rem','color':'#ccc'}}>
+        <center><span style={{'font-size':'1.4rem','color':'#ccc'}}>
         ©2018 Jared Wilber | Made with React, Redux, & D3.js</span></center>
       </div>
     );
