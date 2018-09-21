@@ -11,7 +11,7 @@ class Card extends React.Component {
   render() {
     return (
       <div
-      className={`card card--1 ${
+      className={`card card--3 ${
           this.state.expanded ? "card--expanded" : ""
         }`}
       onClick={() => {

@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      "grid-gap": true,
+      "grid-gap": false,
       "grid-template-columns": true
     };
   }
@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <div className='all'>  
       <center>
-        <h1 className="jared"> Jared Wilber</h1>
+        <h1 className="jared"> jared</h1>
         <center>
         <div id="outer">
           <p className="inner data_science">Data Science</p>
