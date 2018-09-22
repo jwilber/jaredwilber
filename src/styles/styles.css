@@ -193,16 +193,18 @@ h1 {
     background-color: white;
 }
 
-#outer
-{
+#outer {
     width:100%;
     text-align: center;
 }
-.inner
-{
+
+.jared {
+  margin-bottom: .1rem;
+}
+.inner {
     display: inline-block;
     margin-right: 1.4rem;
-    margin-left: 1.4rem;
+    margin-left: 1rem;
     text-transform: uppercase!important;
     font-size:1.15rem;
     margin-top: 0rem;
@@ -224,3 +226,8 @@ h1 {
 .svggg {
   fill: #67c7d3;
 }
+
+.card:hover  {
+  opacity: 0.4;
+}
+
