@@ -14,7 +14,7 @@
 }
 
 .grid-gap {
-  grid-gap: 20.5rem;
+  grid-gap: 10.5rem;
 }
  
 /* styling */
@@ -69,7 +69,8 @@
 }
 
 .card--3 {
-  background-color: pink;
+  background-color: white;
+  opacity: 0.6;
 }
 
 .card--4 {
@@ -129,9 +130,9 @@ button:focus {
   outline: none;
 }
 
-a {
-  font-weight: bold;
-  color: #7396e4;
+.about a {
+  font-weight: 400%;
+  color: grey;
 }
 
 code {
@@ -228,6 +229,7 @@ h1 {
 }
 
 .card:hover  {
-  opacity: 0.4;
+  opacity: 0.9;
+  /*border: 1px solid pink;*/
 }
 
