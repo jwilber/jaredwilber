@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      "grid-gap": false,
+      "grid-gap": true,
       "grid-template-columns": true
     };
   }
@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <div className='all'>  
       <center>
-        <h1 className="jared"> jared</h1>
+        <h1 className="jared"> jared wilber</h1>
         <center>
         <div id="outer">
           <p className="inner data_science">Data Science</p>
@@ -37,23 +37,7 @@ class App extends React.Component {
           </center>
 
         <div className="p-4">
-        <center>
-          <div className="buttonHolders">
-
-            {Object.keys(this.state).map(k => (
-              
-                <button
-                  className="btn2"
-                  onClick={() => this.setState({ [k]: !this.state[k] })}
-                >
-                  <svg className="svggg" style={{float:'left'}} width="20" height="20">
-                    <circle cx="10" cy="10" r="5"  />
-                  </svg>
-                  toggle <code>{k}</code>
-                </button>
-            ))}
-          </div>
-          </center>
+       
           <Grid settings={this.state} />
         </div>
         <center><span style={{'font-size':'1.4rem','color':'#ccc'}}>
