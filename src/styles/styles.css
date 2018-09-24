@@ -165,8 +165,9 @@ h1 {
 }
 
 .vis {
-  border: 1px dotted #ccc;
-  width: 40rem;
+  border-bottom: 1px dotted #ccc;
+  border-left: 1px dotted #ccc;
+  width: 45rem;
   height: 15rem;
 }
 
