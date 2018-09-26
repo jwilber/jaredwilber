@@ -16,7 +16,7 @@ class Grid extends React.Component {
       .forEach(k => (classes += " " + k));
     return (
       <div className={classes} ref={el => (this.grid = el)}>
-        {[...Array(20).keys()].map(i => <Card key={i} />)}
+        {[...Array(6).keys()].map(i => <Card key={i} />)}
       </div>
     );
   }
